@@ -14,3 +14,5 @@ def get_me() -> dict:
         return response.json()
     else:
         raise Exception('Telegram server xatolik qaytardi!')
+
+print(get_me())
